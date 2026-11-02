@@ -1,4 +1,4 @@
-# AWS + Azure Hands-on Labs
+# AWS Hands-on Labs
 
 Hands-on labs I built to learn AWS from an Azure background, and to compare compute hardware across both clouds. Every lab was built and tested in my own AWS account (and my own Azure subscription for comparisons).
 
@@ -9,7 +9,7 @@ Hands-on labs I built to learn AWS from an Azure background, and to compare comp
 
 | # | Lab | What I built | Azure equivalent | Status |
 |---|-----|--------------|------------------|--------|
-| 0 | Account setup | New AWS project-based account on the Free plan: sign-in MFA, region check, CloudShell identity check | Tenant + subscription setup | In progress |
+| 0 | Account setup | New AWS project-based account on the Free plan: sign-in MFA, region check, CloudShell identity check | Tenant + subscription setup | Completed|
 | 1 | IAM | Read-only group, least-privilege S3 policy, EC2 role for Systems Manager | Entra ID, RBAC, Managed Identity | Not started |
 | 2 | VPC networking | VPC with public/private subnets across 2 AZs, IGW, NAT, route tables | VNet, subnets, UDRs | Not started |
 | 3 | EC2 | Linux instance with user data, connected through Session Manager (no SSH keys) | VM + Bastion/JIT | Not started |

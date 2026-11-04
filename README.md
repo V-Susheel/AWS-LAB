@@ -10,7 +10,7 @@ Hands-on labs I built to learn AWS from an Azure background, and to compare comp
 | # | Lab | What I built | Azure equivalent | Status |
 |---|-----|--------------|------------------|--------|
 | 0 | Account setup | New AWS project-based account on the Free plan: sign-in MFA, region check, CloudShell identity check | Tenant + subscription setup | Completed|
-| 1 | IAM | Read-only group, least-privilege S3 policy, EC2 role for Systems Manager | Entra ID, RBAC, Managed Identity | Not started |
+| 1 | IAM | Read-only group, least-privilege S3 policy, EC2 role for Systems Manager | Entra ID, RBAC, Managed Identity | Completed |
 | 2 | VPC networking | VPC with public/private subnets across 2 AZs, IGW, NAT, route tables | VNet, subnets, UDRs | Not started |
 | 3 | EC2 | Linux instance with user data, connected through Session Manager (no SSH keys) | VM + Bastion/JIT | Not started |
 | 4 | Auto Scaling + ALB | Launch template, Auto Scaling Group, Application Load Balancer | VMSS + App Gateway | Not started |

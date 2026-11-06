@@ -12,7 +12,7 @@ Hands-on labs I built to learn AWS from an Azure background, and to compare comp
 | 0 | Account setup | New AWS project-based account on the Free plan: sign-in MFA, region check, CloudShell identity check | Tenant + subscription setup | Completed|
 | 1 | IAM | Read-only group, least-privilege S3 policy, EC2 role for Systems Manager | Entra ID, RBAC, Managed Identity | Completed |
 | 2 | VPC networking | VPC with public/private subnets across 2 AZs, IGW, NAT, route tables | VNet, subnets, UDRs | Completed |
-| 3 | EC2 | Linux instance with user data, connected through Session Manager (no SSH keys) | VM + Bastion/JIT | Not started |
+| 3 | EC2 | Linux instance with user data, connected through Session Manager (no SSH keys) | VM + Bastion/JIT | Completed |
 | 4 | Auto Scaling + ALB | Launch template, Auto Scaling Group, Application Load Balancer | VMSS + App Gateway | Not started |
 | 5 | S3 + CloudWatch | Versioned, encrypted bucket; logs and a Logs Insights query | Storage account, Log Analytics + KQL | Not started |
 | 6 | Cloud hardware | Arm vs x86 benchmark, instance catalog script, maintenance-event script | Cobalt vs x86, Scheduled Events | Not started |

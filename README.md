@@ -15,7 +15,7 @@ Hands-on labs I built to learn AWS from an Azure background, and to compare comp
 | 3 | EC2 | Linux instance with user data, connected through Session Manager (no SSH keys) | VM + Bastion/JIT | Completed |
 | 4 | Auto Scaling + ALB | Launch template, Auto Scaling Group, Application Load Balancer | VMSS + App Gateway | Completed |
 | 5 | S3 + CloudWatch | Versioned, encrypted bucket; logs and a Logs Insights query | Storage account, Log Analytics + KQL | Completed |
-| 6 | Cloud hardware | Arm vs x86 benchmark, instance catalog script, maintenance-event script | Cobalt vs x86, Scheduled Events | Not started |
+| 6 | Cloud hardware | Arm vs x86 benchmark, instance catalog script, maintenance-event script | Cobalt vs x86, Scheduled Events | Completed |
 | 7 | Capstone | Terraform + GitHub Actions, EC2 onboarded to Systems Manager and Azure Arc | Arc-enabled servers | Not started |
 
 ## Folder layout

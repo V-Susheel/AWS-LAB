@@ -1,0 +1,6 @@
+// Azure Resource Graph: AWS EC2 nodes onboarded to Azure Arc
+resources
+| where type == "microsoft.hybridcompute/machines"
+| where resourceGroup == "rg-lab7-arc"
+| project name, status = properties.status, os = properties.osName,
+          agent = properties.agentVersion, detected = properties.detectedProperties

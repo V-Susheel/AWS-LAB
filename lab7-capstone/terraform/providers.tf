@@ -14,6 +14,7 @@ provider "aws" {
     tags = {
       Project   = "lab7-capstone"
       ManagedBy = "terraform"
+      Owner     = "susheel"
     }
   }
 }

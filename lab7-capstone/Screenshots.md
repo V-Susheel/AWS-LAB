@@ -1,4 +1,5 @@
 Phase 4 Screenshots:
+
 Run Commands executed successfully:
 <img width="1482" height="470" alt="Screenshot 2026-11-22 221940" src="https://github.com/user-attachments/assets/44594070-145a-4cc5-abc8-c31131d5fa85" />
 
@@ -14,7 +15,11 @@ Azure ARC machine properties:
 Successfully showing Azure ARC machine and AWS instance are matching:
 <img width="1725" height="804" alt="Screenshot 2026-11-22 222745" src="https://github.com/user-attachments/assets/3ee6fc86-12a8-41ae-a177-94b012c93368" />
 
+Successful result of kusto query:
+<img width="799" height="528" alt="Screenshot 2026-11-22 222436" src="https://github.com/user-attachments/assets/12dddee8-0db7-464d-bc2c-8bf400d52bac" />
+
 Phase 3 Screenshots:
+
 Plan is successful:
 <img width="566" height="269" alt="plan-successful" src="https://github.com/user-attachments/assets/2abd7389-ff50-4f9b-90fb-be9eb7c10d22" />
 

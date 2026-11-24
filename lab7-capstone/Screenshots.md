@@ -1,3 +1,16 @@
+Phase 5 Screenshots:
+
+Log group created:
+<img width="1416" height="748" alt="Screenshot 2026-11-23 151447" src="https://github.com/user-attachments/assets/465d2a64-b4aa-42f0-a082-615dba281460" />
+
+Empty file created which created disk high alert triggered:
+<img width="975" height="528" alt="Screenshot 2026-11-23 161158" src="https://github.com/user-attachments/assets/2c20f21d-7384-41b8-ab54-77446bc67f2a" />
+
+In instance himdsd is stopped due to which alert triggered which reflects in AWS and Azure as below:
+<img width="861" height="524" alt="Screenshot 2026-11-23 170504" src="https://github.com/user-attachments/assets/50f974c4-db51-4c7d-ab70-e5d0c8781769" />
+
+<img width="825" height="521" alt="Screenshot 2026-11-23 170449" src="https://github.com/user-attachments/assets/9509d74d-7385-4dd3-9dc2-6e378caa90ce" />
+
 Phase 4 Screenshots:
 
 Run Commands executed successfully:

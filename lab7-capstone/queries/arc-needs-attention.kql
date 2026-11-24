@@ -1,0 +1,7 @@
+resources
+| where type == "microsoft.hybridcompute/machines" and resourceGroup == "rg-lab7-arc"
+| extend status = tostring(properties.status), statusSince = todatetime(properties.lastStatusChange)
+| extend needsAttention = iff(status != "Connected", "yes", "no")
+| project name, status, lastSeen, needsAttention,
+          awsInstanceId = tostring(tags.AwsInstanceId), os = tostring(properties.osName)
+| order by needsAttention desc

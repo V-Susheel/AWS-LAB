@@ -1,0 +1,9 @@
+Query1: 
+stats latest(arch) as cpu_arch, latest(instance_type) as itype, latest(disk_used_pct) as disk_pct,
+      latest(mem_available_mb) as mem_mb, latest(arc_status) as arc,
+      latest(needs_attention) as attention, latest(reasons) as issues by instance_id
+
+Query2:
+fields @timestamp, instance_id, arch, reasons
+| filter needs_attention = "yes"
+| sort @timestamp desc
